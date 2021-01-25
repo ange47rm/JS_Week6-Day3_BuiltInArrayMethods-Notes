@@ -65,3 +65,10 @@ const foundIndex = objects2.findIndex (function (object) {
 });
 console.log (foundIndex)
 // The findIndex() method returns the index of the first element in the array that satisfies the provided testing function. Otherwise, it returns -1, indicating that no element passed the test.
+
+
+// sort (returns SORTED ARRAY)
+const array1 = [1, 30, 4, 21, 100000];
+array1.sort();
+console.log(array1); // expected output: Array [1, 100000, 21, 30, 4]
+// The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending.
